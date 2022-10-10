@@ -4,7 +4,8 @@
   "info": {
     "singularName": "empleoseguro",
     "pluralName": "empleoseguros",
-    "displayName": "empleoseguro"
+    "displayName": "empleoseguro",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,14 +22,8 @@
       "type": "string"
     },
     "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      "type": "text",
+      "required": true
     }
   }
 }
